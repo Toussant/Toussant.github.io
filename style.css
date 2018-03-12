@@ -1,0 +1,123 @@
+
+html {
+
+	background-color: #000000;
+}
+
+body {
+
+	color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1500px;
+}
+
+
+section {
+  float: right;
+  width: 50%;
+}
+
+section h2 + p {
+  
+  text-indent: 0%;
+}
+
+aside {
+  float: right;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 10px;
+}
+
+
+header, footer {
+  border-top: 5px solid #000000;
+  border-bottom: 5px solid #0;
+}
+
+
+html {
+  font-family: 'Jura', sans-serif;
+  font-size: 10px;
+}
+
+
+h1, h2 {
+  font-family: 'Acme', sans-serif;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+
+p, li {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  word-spacing: 3px;
+}
+
+
+
+nav ul {
+  padding-left: 0;
+  margin-top: 0.8rem;
+}
+
+nav li {
+  list-style-type: none;
+  margin-bottom: 2rem;
+  
+  
+}
+
+nav li a {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  line-height: 3;
+  text-align: center;
+  font-size: 2.5rem;
+  border: 1px solid #8B1BDD;
+}
+
+nav li a:focus, nav li a:hover {
+  color: white;
+  background: #8B1BDD;
+}
+
+nav li a:active {
+  color: white;
+  background: black;
+}
+
+
+
+
+
